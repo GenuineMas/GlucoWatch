@@ -27,6 +27,14 @@ struct GlucoWatchApp: App {
                     .tabItem {
                         Label("Sensor", systemImage: "applewatch.watchface")
                     }
+                GlucoseDataView()
+                    .tabItem {
+                        Label("Glucose", systemImage: "diamond")
+                    }
+                ContentView()
+                    .tabItem {
+                        Label("ContentView", systemImage: "tag")
+                    }
             }
         }
     }
