@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CF144F72CD1534900005242 /* GlucoWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF144F62CD1534900005242 /* GlucoWatchApp.swift */; };
+		8CF144F92CD1534900005242 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF144F82CD1534900005242 /* ContentView.swift */; };
+		8CF144FB2CD1534C00005242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF144FA2CD1534C00005242 /* Assets.xcassets */; };
+		8CF144FE2CD1534C00005242 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF144FD2CD1534C00005242 /* Preview Assets.xcassets */; };
+		8CF145002CD1534C00005242 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF144FF2CD1534C00005242 /* Persistence.swift */; };
+		8CF145032CD1534C00005242 /* GlucoWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145012CD1534C00005242 /* GlucoWatch.xcdatamodeld */; };
+		8CF1450D2CD1534D00005242 /* GlucoWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1450C2CD1534D00005242 /* GlucoWatchTests.swift */; };
+		8CF145172CD1534D00005242 /* GlucoWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145162CD1534D00005242 /* GlucoWatchUITests.swift */; };
+		8CF145192CD1534D00005242 /* GlucoWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145182CD1534D00005242 /* GlucoWatchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF145092CD1534D00005242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF144EB2CD1534900005242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF144F22CD1534900005242;
+			remoteInfo = GlucoWatch;
+		};
+		8CF145132CD1534D00005242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF144EB2CD1534900005242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF144F22CD1534900005242;
+			remoteInfo = GlucoWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CF144F32CD1534900005242 /* GlucoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF144F62CD1534900005242 /* GlucoWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoWatchApp.swift; sourceTree = "<group>"; };
+		8CF144F82CD1534900005242 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CF144FA2CD1534C00005242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CF144FD2CD1534C00005242 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CF144FF2CD1534C00005242 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8CF145022CD1534C00005242 /* GlucoWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GlucoWatch.xcdatamodel; sourceTree = "<group>"; };
+		8CF145082CD1534D00005242 /* GlucoWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF1450C2CD1534D00005242 /* GlucoWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoWatchTests.swift; sourceTree = "<group>"; };
+		8CF145122CD1534D00005242 /* GlucoWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF145162CD1534D00005242 /* GlucoWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoWatchUITests.swift; sourceTree = "<group>"; };
+		8CF145182CD1534D00005242 /* GlucoWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF144F02CD1534900005242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF145052CD1534D00005242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF1450F2CD1534D00005242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF144EA2CD1534900005242 = {
+			isa = PBXGroup;
+			children = (
+				8CF144F52CD1534900005242 /* GlucoWatch */,
+				8CF1450B2CD1534D00005242 /* GlucoWatchTests */,
+				8CF145152CD1534D00005242 /* GlucoWatchUITests */,
+				8CF144F42CD1534900005242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF144F42CD1534900005242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF144F32CD1534900005242 /* GlucoWatch.app */,
+				8CF145082CD1534D00005242 /* GlucoWatchTests.xctest */,
+				8CF145122CD1534D00005242 /* GlucoWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF144F52CD1534900005242 /* GlucoWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8CF144F62CD1534900005242 /* GlucoWatchApp.swift */,
+				8CF144F82CD1534900005242 /* ContentView.swift */,
+				8CF144FA2CD1534C00005242 /* Assets.xcassets */,
+				8CF144FF2CD1534C00005242 /* Persistence.swift */,
+				8CF145012CD1534C00005242 /* GlucoWatch.xcdatamodeld */,
+				8CF144FC2CD1534C00005242 /* Preview Content */,
+			);
+			path = GlucoWatch;
+			sourceTree = "<group>";
+		};
+		8CF144FC2CD1534C00005242 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CF144FD2CD1534C00005242 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CF1450B2CD1534D00005242 /* GlucoWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF1450C2CD1534D00005242 /* GlucoWatchTests.swift */,
+			);
+			path = GlucoWatchTests;
+			sourceTree = "<group>";
+		};
+		8CF145152CD1534D00005242 /* GlucoWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF145162CD1534D00005242 /* GlucoWatchUITests.swift */,
+				8CF145182CD1534D00005242 /* GlucoWatchUITestsLaunchTests.swift */,
+			);
+			path = GlucoWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CF144F22CD1534900005242 /* GlucoWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF1451C2CD1534D00005242 /* Build configuration list for PBXNativeTarget "GlucoWatch" */;
+			buildPhases = (
+				8CF144EF2CD1534900005242 /* Sources */,
+				8CF144F02CD1534900005242 /* Frameworks */,
+				8CF144F12CD1534900005242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlucoWatch;
+			productName = GlucoWatch;
+			productReference = 8CF144F32CD1534900005242 /* GlucoWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CF145072CD1534D00005242 /* GlucoWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF1451F2CD1534D00005242 /* Build configuration list for PBXNativeTarget "GlucoWatchTests" */;
+			buildPhases = (
+				8CF145042CD1534D00005242 /* Sources */,
+				8CF145052CD1534D00005242 /* Frameworks */,
+				8CF145062CD1534D00005242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF1450A2CD1534D00005242 /* PBXTargetDependency */,
+			);
+			name = GlucoWatchTests;
+			productName = GlucoWatchTests;
+			productReference = 8CF145082CD1534D00005242 /* GlucoWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CF145112CD1534D00005242 /* GlucoWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF145222CD1534D00005242 /* Build configuration list for PBXNativeTarget "GlucoWatchUITests" */;
+			buildPhases = (
+				8CF1450E2CD1534D00005242 /* Sources */,
+				8CF1450F2CD1534D00005242 /* Frameworks */,
+				8CF145102CD1534D00005242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF145142CD1534D00005242 /* PBXTargetDependency */,
+			);
+			name = GlucoWatchUITests;
+			productName = GlucoWatchUITests;
+			productReference = 8CF145122CD1534D00005242 /* GlucoWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF144EB2CD1534900005242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8CF144F22CD1534900005242 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8CF145072CD1534D00005242 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8CF144F22CD1534900005242;
+					};
+					8CF145112CD1534D00005242 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8CF144F22CD1534900005242;
+					};
+				};
+			};
+			buildConfigurationList = 8CF144EE2CD1534900005242 /* Build configuration list for PBXProject "GlucoWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CF144EA2CD1534900005242;
+			productRefGroup = 8CF144F42CD1534900005242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF144F22CD1534900005242 /* GlucoWatch */,
+				8CF145072CD1534D00005242 /* GlucoWatchTests */,
+				8CF145112CD1534D00005242 /* GlucoWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF144F12CD1534900005242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF144FE2CD1534C00005242 /* Preview Assets.xcassets in Resources */,
+				8CF144FB2CD1534C00005242 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF145062CD1534D00005242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF145102CD1534D00005242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF144EF2CD1534900005242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF145032CD1534C00005242 /* GlucoWatch.xcdatamodeld in Sources */,
+				8CF145002CD1534C00005242 /* Persistence.swift in Sources */,
+				8CF144F92CD1534900005242 /* ContentView.swift in Sources */,
+				8CF144F72CD1534900005242 /* GlucoWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF145042CD1534D00005242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF1450D2CD1534D00005242 /* GlucoWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF1450E2CD1534D00005242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF145172CD1534D00005242 /* GlucoWatchUITests.swift in Sources */,
+				8CF145192CD1534D00005242 /* GlucoWatchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CF1450A2CD1534D00005242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF144F22CD1534900005242 /* GlucoWatch */;
+			targetProxy = 8CF145092CD1534D00005242 /* PBXContainerItemProxy */;
+		};
+		8CF145142CD1534D00005242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF144F22CD1534900005242 /* GlucoWatch */;
+			targetProxy = 8CF145132CD1534D00005242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CF1451A2CD1534D00005242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CF1451B2CD1534D00005242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CF1451D2CD1534D00005242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlucoWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.GlucoWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CF1451E2CD1534D00005242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GlucoWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.GlucoWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CF145202CD1534D00005242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.GlucoWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlucoWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlucoWatch";
+			};
+			name = Debug;
+		};
+		8CF145212CD1534D00005242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.GlucoWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlucoWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlucoWatch";
+			};
+			name = Release;
+		};
+		8CF145232CD1534D00005242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.GlucoWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlucoWatch;
+			};
+			name = Debug;
+		};
+		8CF145242CD1534D00005242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.GlucoWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlucoWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF144EE2CD1534900005242 /* Build configuration list for PBXProject "GlucoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF1451A2CD1534D00005242 /* Debug */,
+				8CF1451B2CD1534D00005242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF1451C2CD1534D00005242 /* Build configuration list for PBXNativeTarget "GlucoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF1451D2CD1534D00005242 /* Debug */,
+				8CF1451E2CD1534D00005242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF1451F2CD1534D00005242 /* Build configuration list for PBXNativeTarget "GlucoWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF145202CD1534D00005242 /* Debug */,
+				8CF145212CD1534D00005242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF145222CD1534D00005242 /* Build configuration list for PBXNativeTarget "GlucoWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF145232CD1534D00005242 /* Debug */,
+				8CF145242CD1534D00005242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CF145012CD1534C00005242 /* GlucoWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CF145022CD1534C00005242 /* GlucoWatch.xcdatamodel */,
+			);
+			currentVersion = 8CF145022CD1534C00005242 /* GlucoWatch.xcdatamodel */;
+			path = GlucoWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8CF144EB2CD1534900005242 /* Project object */;
+}
