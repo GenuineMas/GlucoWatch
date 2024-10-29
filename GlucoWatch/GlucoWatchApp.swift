@@ -13,8 +13,21 @@ struct GlucoWatchApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TabView {
+                BarCodeView()
+                    .tabItem {
+                        Label("BarCode", systemImage: "barcode.viewfinder")
+                    }
+        
+                BreadUnitsView()
+                    .tabItem {
+                        Label("XE", systemImage: "fork.knife")
+                    }
+                WatchSensor()
+                    .tabItem {
+                        Label("Sensor", systemImage: "applewatch.watchface")
+                    }
+            }
         }
     }
 }

@@ -16,6 +16,24 @@
 		8CF1450D2CD1534D00005242 /* GlucoWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1450C2CD1534D00005242 /* GlucoWatchTests.swift */; };
 		8CF145172CD1534D00005242 /* GlucoWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145162CD1534D00005242 /* GlucoWatchUITests.swift */; };
 		8CF145192CD1534D00005242 /* GlucoWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145182CD1534D00005242 /* GlucoWatchUITestsLaunchTests.swift */; };
+		8CF145282CD1543500005242 /* HealthDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145262CD1543500005242 /* HealthDataFetcher.swift */; };
+		8CF145292CD1543500005242 /* HealthDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145262CD1543500005242 /* HealthDataFetcher.swift */; };
+		8CF1452A2CD1543500005242 /* HealthDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145262CD1543500005242 /* HealthDataFetcher.swift */; };
+		8CF1452B2CD1543500005242 /* HealthDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145272CD1543500005242 /* HealthDataFetcher.swift */; };
+		8CF1452C2CD1543500005242 /* HealthDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145272CD1543500005242 /* HealthDataFetcher.swift */; };
+		8CF1452D2CD1543500005242 /* HealthDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145272CD1543500005242 /* HealthDataFetcher.swift */; };
+		8CF145322CD1544300005242 /* BreadUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1452E2CD1544200005242 /* BreadUnitsView.swift */; };
+		8CF145332CD1544300005242 /* BreadUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1452E2CD1544200005242 /* BreadUnitsView.swift */; };
+		8CF145342CD1544300005242 /* BreadUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1452E2CD1544200005242 /* BreadUnitsView.swift */; };
+		8CF145352CD1544300005242 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1452F2CD1544300005242 /* WebView.swift */; };
+		8CF145362CD1544300005242 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1452F2CD1544300005242 /* WebView.swift */; };
+		8CF145372CD1544300005242 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF1452F2CD1544300005242 /* WebView.swift */; };
+		8CF145382CD1544300005242 /* WatchSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145302CD1544300005242 /* WatchSensor.swift */; };
+		8CF145392CD1544300005242 /* WatchSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145302CD1544300005242 /* WatchSensor.swift */; };
+		8CF1453A2CD1544300005242 /* WatchSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145302CD1544300005242 /* WatchSensor.swift */; };
+		8CF1453B2CD1544300005242 /* BarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145312CD1544300005242 /* BarCodeView.swift */; };
+		8CF1453C2CD1544300005242 /* BarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145312CD1544300005242 /* BarCodeView.swift */; };
+		8CF1453D2CD1544300005242 /* BarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF145312CD1544300005242 /* BarCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +66,12 @@
 		8CF145122CD1534D00005242 /* GlucoWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF145162CD1534D00005242 /* GlucoWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoWatchUITests.swift; sourceTree = "<group>"; };
 		8CF145182CD1534D00005242 /* GlucoWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CF145262CD1543500005242 /* HealthDataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthDataFetcher.swift; path = HealthKitModule/HealthDataFetcher.swift; sourceTree = "<group>"; };
+		8CF145272CD1543500005242 /* HealthDataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataFetcher.swift; sourceTree = "<group>"; };
+		8CF1452E2CD1544200005242 /* BreadUnitsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadUnitsView.swift; sourceTree = "<group>"; };
+		8CF1452F2CD1544300005242 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8CF145302CD1544300005242 /* WatchSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSensor.swift; sourceTree = "<group>"; };
+		8CF145312CD1544300005242 /* BarCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +122,12 @@
 		8CF144F52CD1534900005242 /* GlucoWatch */ = {
 			isa = PBXGroup;
 			children = (
+				8CF1452F2CD1544300005242 /* WebView.swift */,
+				8CF145272CD1543500005242 /* HealthDataFetcher.swift */,
+				8CF145312CD1544300005242 /* BarCodeView.swift */,
+				8CF1452E2CD1544200005242 /* BreadUnitsView.swift */,
+				8CF145302CD1544300005242 /* WatchSensor.swift */,
+				8CF145262CD1543500005242 /* HealthDataFetcher.swift */,
 				8CF144F62CD1534900005242 /* GlucoWatchApp.swift */,
 				8CF144F82CD1534900005242 /* ContentView.swift */,
 				8CF144FA2CD1534C00005242 /* Assets.xcassets */,
@@ -264,9 +294,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF145032CD1534C00005242 /* GlucoWatch.xcdatamodeld in Sources */,
+				8CF145352CD1544300005242 /* WebView.swift in Sources */,
+				8CF145382CD1544300005242 /* WatchSensor.swift in Sources */,
 				8CF145002CD1534C00005242 /* Persistence.swift in Sources */,
+				8CF145282CD1543500005242 /* HealthDataFetcher.swift in Sources */,
 				8CF144F92CD1534900005242 /* ContentView.swift in Sources */,
 				8CF144F72CD1534900005242 /* GlucoWatchApp.swift in Sources */,
+				8CF1453B2CD1544300005242 /* BarCodeView.swift in Sources */,
+				8CF1452B2CD1543500005242 /* HealthDataFetcher.swift in Sources */,
+				8CF145322CD1544300005242 /* BreadUnitsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +311,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF1450D2CD1534D00005242 /* GlucoWatchTests.swift in Sources */,
+				8CF145362CD1544300005242 /* WebView.swift in Sources */,
+				8CF145292CD1543500005242 /* HealthDataFetcher.swift in Sources */,
+				8CF1453C2CD1544300005242 /* BarCodeView.swift in Sources */,
+				8CF1452C2CD1543500005242 /* HealthDataFetcher.swift in Sources */,
+				8CF145332CD1544300005242 /* BreadUnitsView.swift in Sources */,
+				8CF145392CD1544300005242 /* WatchSensor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF145342CD1544300005242 /* BreadUnitsView.swift in Sources */,
 				8CF145172CD1534D00005242 /* GlucoWatchUITests.swift in Sources */,
 				8CF145192CD1534D00005242 /* GlucoWatchUITestsLaunchTests.swift in Sources */,
+				8CF145372CD1544300005242 /* WebView.swift in Sources */,
+				8CF1452A2CD1543500005242 /* HealthDataFetcher.swift in Sources */,
+				8CF1453A2CD1544300005242 /* WatchSensor.swift in Sources */,
+				8CF1452D2CD1543500005242 /* HealthDataFetcher.swift in Sources */,
+				8CF1453D2CD1544300005242 /* BarCodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
