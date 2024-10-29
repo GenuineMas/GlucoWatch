@@ -17,7 +17,7 @@ struct GlucoseDataView: View {
                 .font(.title)
                 .padding()
             
-            if healthDataFetcher.glucoseData.isEmpty {
+            if healthDataFetcher.glucoseData.isEmpty { 
                 Text("No data available")
                     .foregroundColor(.gray)
             } else {

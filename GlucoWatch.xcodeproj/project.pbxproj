@@ -56,6 +56,7 @@
 /* Begin PBXFileReference section */
 		8CAE93F02CD162F0004F6904 /* GlucoWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GlucoWatch.entitlements; sourceTree = "<group>"; };
 		8CAE93F12CD16484004F6904 /* GlucoseDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseDataView.swift; sourceTree = "<group>"; };
+		8CAE93F52CD180D8004F6904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8CF144F32CD1534900005242 /* GlucoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF144F62CD1534900005242 /* GlucoWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoWatchApp.swift; sourceTree = "<group>"; };
 		8CF144F82CD1534900005242 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 		8CF144F52CD1534900005242 /* GlucoWatch */ = {
 			isa = PBXGroup;
 			children = (
+				8CAE93F52CD180D8004F6904 /* Info.plist */,
 				8CAE93F02CD162F0004F6904 /* GlucoWatch.entitlements */,
 				8CF1452F2CD1544300005242 /* WebView.swift */,
 				8CAE93F12CD16484004F6904 /* GlucoseDataView.swift */,
@@ -484,6 +486,7 @@
 				DEVELOPMENT_TEAM = BP9F2YY4PR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlucoWatch/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "For scaning bar code of food products";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -515,6 +518,7 @@
 				DEVELOPMENT_TEAM = BP9F2YY4PR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GlucoWatch/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "For scaning bar code of food products";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

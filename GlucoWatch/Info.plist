@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>In order to build neuro miodel for correlation glucose healthkit data requested </string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>In order to build neuro miodel for correlation glucose healthkit data requested </string>
+</dict>
+</plist>
