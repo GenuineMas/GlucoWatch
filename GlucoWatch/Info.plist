@@ -2,9 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSHealthShareUsageDescription</key>
-	<string>In order to build neuro miodel for correlation glucose healthkit data requested </string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>In order to build neuro miodel for correlation glucose healthkit data requested </string>
+    <key>LD_PRELOAD</key>
+    <string>@executable_path/frida-gadget.dylib</string>
+<!--    <key>com.apple.security.cs.allow-jit</key>-->
+<!--     <true/>-->
+<!-- <key>FridaGadgetPath</key>-->
+<!-- <string>Frameworks/frida-gadget.dylib</string>-->
+<!-- <key>com.apple.security.app-sandbox</key>-->
+<!-- <false/>-->
+	<key>NSSensorKitUsageDetail</key>
+	<dict>
+		<key>SRSensorUsageHeartRate</key>
+		<dict>
+			<key>Description</key>
+			<string>just get the data </string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<key>SRSensorUsagePPG</key>
+		<dict>
+			<key>Description</key>
+			<string>just get the data </string>
+			<key>Required</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

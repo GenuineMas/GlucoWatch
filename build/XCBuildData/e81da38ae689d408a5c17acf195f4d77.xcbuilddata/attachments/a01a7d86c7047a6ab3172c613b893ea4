@@ -1,0 +1,75 @@
+{
+  "" : {
+    "const-values" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatch-master.swiftconstvalues",
+    "dependencies" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatch-master.d",
+    "diagnostics" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatch-master.dia",
+    "emit-module-dependencies" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatch-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatch-master-emit-module.dia",
+    "swift-dependencies" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatch-master.swiftdeps"
+  },
+  "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/DerivedSources/CoreDataGenerated/GlucoWatch/GlucoWatch+CoreDataModel.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatch+CoreDataModel.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatch+CoreDataModel.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatch+CoreDataModel.o"
+  },
+  "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/DerivedSources/CoreDataGenerated/GlucoWatch/Item+CoreDataClass.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/Item+CoreDataClass.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/Item+CoreDataClass.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/Item+CoreDataClass.o"
+  },
+  "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/DerivedSources/CoreDataGenerated/GlucoWatch/Item+CoreDataProperties.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/Item+CoreDataProperties.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/Item+CoreDataProperties.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/Item+CoreDataProperties.o"
+  },
+  "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/me/Developer/GlucoWatch/GlucoWatch/BarCodeView.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/BarCodeView.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/BarCodeView.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/BarCodeView.o"
+  },
+  "/Users/me/Developer/GlucoWatch/GlucoWatch/BreadUnitsView.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/BreadUnitsView.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/BreadUnitsView.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/BreadUnitsView.o"
+  },
+  "/Users/me/Developer/GlucoWatch/GlucoWatch/ContentView.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/me/Developer/GlucoWatch/GlucoWatch/GlucoseDataView.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoseDataView.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoseDataView.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoseDataView.o"
+  },
+  "/Users/me/Developer/GlucoWatch/GlucoWatch/GlucoWatchApp.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatchApp.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatchApp.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/GlucoWatchApp.o"
+  },
+  "/Users/me/Developer/GlucoWatch/GlucoWatch/HealthDataFetcher.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/HealthDataFetcher.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/HealthDataFetcher.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/HealthDataFetcher.o"
+  },
+  "/Users/me/Developer/GlucoWatch/GlucoWatch/Persistence.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/Persistence.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/Persistence.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/Persistence.o"
+  },
+  "/Users/me/Developer/GlucoWatch/GlucoWatch/WatchSensor.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/WatchSensor.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/WatchSensor.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/WatchSensor.o"
+  },
+  "/Users/me/Developer/GlucoWatch/GlucoWatch/WebView.swift" : {
+    "index-unit-output-path" : "/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/WebView.o",
+    "llvm-bc" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/WebView.bc",
+    "object" : "/Users/me/Developer/GlucoWatch/build/GlucoWatch.build/Release-iphoneos/GlucoWatch.build/Objects-normal/arm64/WebView.o"
+  }
+}

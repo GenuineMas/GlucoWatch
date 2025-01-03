@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppIDName</key>
+	<string>XC com MassaM GlucoWatch</string>
+	<key>ApplicationIdentifierPrefix</key>
+	<array>
+	<string>BP9F2YY4PR</string>
+	</array>
+	<key>CreationDate</key>
+	<date>2024-12-16T23:24:23Z</date>
+	<key>Platform</key>
+	<array>
+		<string>iOS</string>
+		<string>xrOS</string>
+		<string>visionOS</string>
+	</array>
+	<key>IsXcodeManaged</key>
+	<false/>
+	<key>DeveloperCertificates</key>
+	<array>
+		<data>MIIFzjCCBLagAwIBAgIQVW8nMkqNiy8qqYnSBIvx7DANBgkqhkiG9w0BAQsFADB1MUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdpZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTELMAkGA1UECwwCRzMxEzARBgNVBAoMCkFwcGxlIEluYy4xCzAJBgNVBAYTAlVTMB4XDTI0MDcyNDE1MjkzOFoXDTI1MDcyNDE1MjkzN1owgZQxGjAYBgoJkiaJk/IsZAEBDAoySDg2MkMzNVozMTkwNwYDVQQDDDBBcHBsZSBEZXZlbG9wbWVudDogWWV2aGVuIE1hc2FsaXRpbiAoODROSjRSRUNROCkxEzARBgNVBAsMCkJQOUYyWVk0UFIxGTAXBgNVBAoMEFlldmhlbiBNYXNhbGl0aW4xCzAJBgNVBAYTAlVTMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsiy4cayZ2uOpoDJIxS/Kh9sfyNtbJC6Jqwezz0gpGffhbu3o2cKmTMMmjRYbE7ogzPsr3v70UxASiUbthDvqpytfsY33ZWLVBQRSmkLkxCG8pnI91ZwKsGbwmnXY3BMFUNF+6b/xVz/2tbej8gH9AcF8cXBVqm3ru1nBV57BPCtTcdu+nkA6Run916CrDxHLZE6dVCaCGFfDLoWYzm6YtAJJ9sZCfayDd3SjjKMTahcDjG0VHKF6VmMh2TXYRCM7onGuEcX/72eZMxmXfscCYgKLl/MKTWqMpZLFYLh8KKHQTsKZXGS0KZ77PB5wiJvuBugsCjZbKC18twOVG0MoBwIDAQABo4ICODCCAjQwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBQJ/sAVkPmvZAqSErkmKGMMl+ynsjBwBggrBgEFBQcBAQRkMGIwLQYIKwYBBQUHMAKGIWh0dHA6Ly9jZXJ0cy5hcHBsZS5jb20vd3dkcmczLmRlcjAxBggrBgEFBQcwAYYlaHR0cDovL29jc3AuYXBwbGUuY29tL29jc3AwMy13d2RyZzMwNDCCAR4GA1UdIASCARUwggERMIIBDQYJKoZIhvdjZAUBMIH/MIHDBggrBgEFBQcCAjCBtgyBs1JlbGlhbmNlIG9uIHRoaXMgY2VydGlmaWNhdGUgYnkgYW55IHBhcnR5IGFzc3VtZXMgYWNjZXB0YW5jZSBvZiB0aGUgdGhlbiBhcHBsaWNhYmxlIHN0YW5kYXJkIHRlcm1zIGFuZCBjb25kaXRpb25zIG9mIHVzZSwgY2VydGlmaWNhdGUgcG9saWN5IGFuZCBjZXJ0aWZpY2F0aW9uIHByYWN0aWNlIHN0YXRlbWVudHMuMDcGCCsGAQUFBwIBFitodHRwczovL3d3dy5hcHBsZS5jb20vY2VydGlmaWNhdGVhdXRob3JpdHkvMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMDMB0GA1UdDgQWBBRjrSSfp5dCCtUdTEe2EWjGpLZB9zAOBgNVHQ8BAf8EBAMCB4AwEwYKKoZIhvdjZAYBAgEB/wQCBQAwEwYKKoZIhvdjZAYBDAEB/wQCBQAwDQYJKoZIhvcNAQELBQADggEBAKOHf34cqHkb8VR8FbJUgi4spJpLQ1kwGbr3569GBWg/WKv+e1iNnaqKwVlaAV20i09Dtt4LNBwUvXbFotV9g6ODXTPMvRV9eHO8QdtDMfSq153PfnEDl9mwZKhsLzMwso5NsA2znEwEkBprNUhb6Y9BRwNYa4VScghTWFilugduIiwmSCq2FUWbwlymtvljBzQ/ITOwJzwl0CxHcICeIk8PMKcacqxK2zAjQtiI3TLz37yB6DDxH/deicNK8aw/yZtb4GYWtNKILs57wv4aYIu77qDfCiBAkWbTS5tGZ2da7dkTp4ybtPsPx0qeD3qglMmJsAtXkPFsDp/vWUunrAo=</data>
+	</array>
+
+	<key>DER-Encoded-Profile</key>
+	<data>MIIayAYJKoZIhvcNAQcCoIIauTCCGrUCAQExDzANBglghkgBZQMEAgEFADCCEIIGCSqGSIb3DQEHAaCCEHMEghBvMYIQazAMDAdWZXJzaW9uAgEBMA4MBE5hbWUMBkdsdWNrbzAQDApUaW1lVG9MaXZlAgIBbTATDA5Jc1hjb2RlTWFuYWdlZAEBADAcDAhUZWFtTmFtZQwQWWV2aGVuIE1hc2FsaXRpbjAdDAxDcmVhdGlvbkRhdGUXDTI0MTIxNjIzMjQyM1owHgwOVGVhbUlkZW50aWZpZXIwDAwKQlA5RjJZWTRQUjAfDA5FeHBpcmF0aW9uRGF0ZRcNMjUxMjE2MjMyNDIzWjAhDAhQbGF0Zm9ybTAVDANpT1MMBHhyT1MMCHZpc2lvbk9TMCIMF1Byb2ZpbGVEaXN0cmlidXRpb25UeXBlDAdMSU1JVEVEMCUMCUFwcElETmFtZQwYWEMgY29tIE1hc3NhTSBHbHVjb1dhdGNoMCsMG0FwcGxpY2F0aW9uSWRlbnRpZmllclByZWZpeDAMDApCUDlGMllZNFBSMCwMBFVVSUQMJDI3ZWJmZWI5LTMzMWEtNDI4NC1hNDliLTVmN2ZkNGM4ODQwZDA7DBVEZXZlbG9wZXJDZXJ0aWZpY2F0ZXMwIgQgacYyFzCtAeQpxUjaKILZ4ESeZUcdRKeptaw6MdmsSCEwga0MElByb3Zpc2lvbmVkRGV2aWNlczCBlgwZMDAwMDgzMDEtMjA5RUU4QTQxRUEwQTAyRQwZMDAwMDgzMDEtNDA4MUY4ODYxRTAwQTAyRQwoZDhmZTNjNDJkZTA1ZTg1YjM2ZjllOGQzZGY5NmI5NTVmMTJmYWIwYgwZMDAwMDgxMTAtMDAwMDM5RUUwMjMwNDAxRQwZMDAwMDgwMzAtMDAwNTA1MDkzQTgxODAyRTCCDe4MDEVudGl0bGVtZW50c3CCDdwCAQGwgg3VMDoMFmFwcGxpY2F0aW9uLWlkZW50aWZpZXIMIEJQOUYyWVk0UFIuY29tLk1hc3NhTS5HbHVjb1dhdGNoMEUMKGNvbS5hcHBsZS5kZXZlbG9wZXIuQ2xhc3NLaXQtZW52aXJvbm1lbnQwGQwKcHJvZHVjdGlvbgwLZGV2ZWxvcG1lbnQwOww2Y29tLmFwcGxlLmRldmVsb3Blci5hY2Nlc3NpYmlsaXR5Lm1lcmNoYW50LWFwaS1jb250cm9sAQH/MCwMH2NvbS5hcHBsZS5kZXZlbG9wZXIuYXBwbGVzaWduaW4wCQwHRGVmYXVsdDArDCZjb20uYXBwbGUuZGV2ZWxvcGVyLmFzc29jaWF0ZWQtZG9tYWlucwwBKjA3DDJjb20uYXBwbGUuZGV2ZWxvcGVyLmFzc29jaWF0ZWQtZG9tYWlucy5tZG0tbWFuYWdlZAEB/zBNDEhjb20uYXBwbGUuZGV2ZWxvcGVyLmF1dGhlbnRpY2F0aW9uLXNlcnZpY2VzLmF1dG9maWxsLWNyZWRlbnRpYWwtcHJvdmlkZXIBAf8wJAwfY29tLmFwcGxlLmRldmVsb3Blci5jYWxsaW5nLWFwcAEB/zA7DDZjb20uYXBwbGUuZGV2ZWxvcGVyLmNvcmVtZWRpYS5obHMuaW50ZXJzdGl0aWFsLXByZXZpZXcBAf8wMgwtY29tLmFwcGxlLmRldmVsb3Blci5jb3JlbWVkaWEuaGxzLmxvdy1sYXRlbmN5AQH/MC0MKGNvbS5hcHBsZS5kZXZlbG9wZXIuY29yZW1vdGlvbi5oZWFkLXBvc2UBAf8wMwwuY29tLmFwcGxlLmRldmVsb3Blci5jb3JldGVsZXBob255LnNpbS1pbnNlcnRlZAEB/zBHDCtjb20uYXBwbGUuZGV2ZWxvcGVyLmRlZmF1bHQtZGF0YS1wcm90ZWN0aW9uDBhOU0ZpbGVQcm90ZWN0aW9uQ29tcGxldGUwUgw1Y29tLmFwcGxlLmRldmVsb3Blci5kZXZpY2VjaGVjay5hcHBhdHRlc3QtZW52aXJvbm1lbnQwGQwLZGV2ZWxvcG1lbnQMCnByb2R1Y3Rpb24wKAwjY29tLmFwcGxlLmRldmVsb3Blci5mYW1pbHktY29udHJvbHMBAf8wMgwtY29tLmFwcGxlLmRldmVsb3Blci5maWxlcHJvdmlkZXIudGVzdGluZy1tb2RlAQH/MCQMH2NvbS5hcHBsZS5kZXZlbG9wZXIuZ2FtZS1jZW50ZXIBAf8wJgwhY29tLmFwcGxlLmRldmVsb3Blci5ncm91cC1zZXNzaW9uAQH/MCIMHWNvbS5hcHBsZS5kZXZlbG9wZXIuaGVhbHRoa2l0AQH/MDgMJGNvbS5hcHBsZS5kZXZlbG9wZXIuaGVhbHRoa2l0LmFjY2VzczAQDA5oZWFsdGgtcmVjb3JkczA2DDFjb20uYXBwbGUuZGV2ZWxvcGVyLmhlYWx0aGtpdC5iYWNrZ3JvdW5kLWRlbGl2ZXJ5AQH/MDgMM2NvbS5hcHBsZS5kZXZlbG9wZXIuaGVhbHRoa2l0LnJlY2FsaWJyYXRlLWVzdGltYXRlcwEB/zAgDBtjb20uYXBwbGUuZGV2ZWxvcGVyLmhvbWVraXQBAf8wMgwhY29tLmFwcGxlLmRldmVsb3Blci5qb3VybmFsLmFsbG93MA0MC3N1Z2dlc3Rpb25zMDsMNmNvbS5hcHBsZS5kZXZlbG9wZXIua2VybmVsLmV4dGVuZGVkLXZpcnR1YWwtYWRkcmVzc2luZwEB/zBADDtjb20uYXBwbGUuZGV2ZWxvcGVyLmtlcm5lbC5pbmNyZWFzZWQtZGVidWdnaW5nLW1lbW9yeS1saW1pdAEB/zA2DDFjb20uYXBwbGUuZGV2ZWxvcGVyLmtlcm5lbC5pbmNyZWFzZWQtbWVtb3J5LWxpbWl0AQH/MEgMN2NvbS5hcHBsZS5kZXZlbG9wZXIubWFuYWdlZC1hcHAtZGlzdHJpYnV0aW9uLmluc3RhbGwtdWkwDQwLbWFuYWdlZC1hcHAwMwwuY29tLmFwcGxlLmRldmVsb3Blci5tYXR0ZXIuYWxsb3ctc2V0dXAtcGF5bG9hZAEB/zA5DDRjb20uYXBwbGUuZGV2ZWxvcGVyLm1lZGlhLWRldmljZS1kaXNjb3ZlcnktZXh0ZW5zaW9uAQH/MDQML2NvbS5hcHBsZS5kZXZlbG9wZXIubWVzc2FnZXMuY3JpdGljYWwtbWVzc2FnaW5nAQH/MCYMIWNvbS5hcHBsZS5kZXZlbG9wZXIubWVzc2FnaW5nLWFwcAEB/zA4DDNjb20uYXBwbGUuZGV2ZWxvcGVyLm5ldHdvcmtpbmcuSG90c3BvdENvbmZpZ3VyYXRpb24BAf8wRQxAY29tLmFwcGxlLmRldmVsb3Blci5uZXR3b3JraW5nLm1hbmFnZS10aHJlYWQtbmV0d29yay1jcmVkZW50aWFscwEB/zAtDChjb20uYXBwbGUuZGV2ZWxvcGVyLm5ldHdvcmtpbmcubXVsdGlwYXRoAQH/MIGYDC9jb20uYXBwbGUuZGV2ZWxvcGVyLm5ldHdvcmtpbmcubmV0d29ya2V4dGVuc2lvbjBlDBJhcHAtcHJveHktcHJvdmlkZXIMF2NvbnRlbnQtZmlsdGVyLXByb3ZpZGVyDBZwYWNrZXQtdHVubmVsLXByb3ZpZGVyDAlkbnMtcHJveHkMDGRucy1zZXR0aW5ncwwFcmVsYXkwZgwyY29tLmFwcGxlLmRldmVsb3Blci5uZXR3b3JraW5nLnNsaWNpbmcuYXBwY2F0ZWdvcnkwMAwSY29tbXVuaWNhdGlvbi05MDAwDApnYW1lcy02MDE0DA5zdHJlYW1pbmctOTAwMTCBrAw2Y29tLmFwcGxlLmRldmVsb3Blci5uZXR3b3JraW5nLnNsaWNpbmcudHJhZmZpY2NhdGVnb3J5MHIMDmRlZmF1bHRzbGljZS0xDAd2aWRlby0yDAxiYWNrZ3JvdW5kLTMMB3ZvaWNlLTQMD2NhbGxzaWduYWxpbmctNQwQcmVzcG9uc2l2ZWRhdGEtNgwNYXZzdHJlYW1pbmctNwwOcmVzcG9uc2l2ZWF2LTgwNQwmY29tLmFwcGxlLmRldmVsb3Blci5uZXR3b3JraW5nLnZwbi5hcGkwCwwJYWxsb3ctdnBuMC0MKGNvbS5hcHBsZS5kZXZlbG9wZXIubmV0d29ya2luZy53aWZpLWluZm8BAf8wQgwtY29tLmFwcGxlLmRldmVsb3Blci5uZmMucmVhZGVyc2Vzc2lvbi5mb3JtYXRzMBEMBE5ERUYMA1RBRwwEUEFDRTAyDC1jb20uYXBwbGUuZGV2ZWxvcGVyLm9uLWRlbWFuZC1pbnN0YWxsLWNhcGFibGUBAf8wOwwpY29tLmFwcGxlLmRldmVsb3Blci5wYXNzLXR5cGUtaWRlbnRpZmllcnMwDgwMQlA5RjJZWTRQUi4qMDoMNWNvbS5hcHBsZS5kZXZlbG9wZXIucHJveGltaXR5LXJlYWRlci5pZGVudGl0eS5kaXNwbGF5AQH/MCUMIGNvbS5hcHBsZS5kZXZlbG9wZXIucHVzaC10by10YWxrAQH/MEEMM2NvbS5hcHBsZS5kZXZlbG9wZXIuc2Vuc2l0aXZlY29udGVudGFuYWx5c2lzLmNsaWVudDAKDAhhbmFseXNpczAoDCNjb20uYXBwbGUuZGV2ZWxvcGVyLnNoYXJlZC13aXRoLXlvdQEB/zA2DDFjb20uYXBwbGUuZGV2ZWxvcGVyLnNoYXJlZC13aXRoLXlvdS5jb2xsYWJvcmF0aW9uAQH/MB0MGGNvbS5hcHBsZS5kZXZlbG9wZXIuc2lyaQEB/zA1DDBjb20uYXBwbGUuZGV2ZWxvcGVyLnNwYXRpYWwtYXVkaW8ucHJvZmlsZS1hY2Nlc3MBAf8wPQw4Y29tLmFwcGxlLmRldmVsb3Blci5zdWJtZXJnZWQtc2hhbGxvdy1kZXB0aC1hbmQtcHJlc3N1cmUBAf8wLAwnY29tLmFwcGxlLmRldmVsb3Blci5zdXN0YWluZWQtZXhlY3V0aW9uAQH/MDEMI2NvbS5hcHBsZS5kZXZlbG9wZXIudGVhbS1pZGVudGlmaWVyDApCUDlGMllZNFBSMEIMHmNvbS5hcHBsZS5kZXZlbG9wZXIudXNlci1mb250czAgDAlhcHAtdXNhZ2UME3N5c3RlbS1pbnN0YWxsYXRpb24wOAwzY29tLmFwcGxlLmRldmVsb3Blci51c2Vybm90aWZpY2F0aW9ucy5jb21tdW5pY2F0aW9uAQH/MDkMNGNvbS5hcHBsZS5kZXZlbG9wZXIudXNlcm5vdGlmaWNhdGlvbnMudGltZS1zZW5zaXRpdmUBAf8wIwweY29tLmFwcGxlLmRldmVsb3Blci53ZWF0aGVya2l0AQH/MDgMM2NvbS5hcHBsZS5leHRlcm5hbC1hY2Nlc3Nvcnkud2lyZWxlc3MtY29uZmlndXJhdGlvbgEB/zATDA5nZXQtdGFzay1hbGxvdwEB/zAUDA9pbnRlci1hcHAtYXVkaW8BAf8wOQwWa2V5Y2hhaW4tYWNjZXNzLWdyb3VwczAfDAxCUDlGMllZNFBSLioMD2NvbS5hcHBsZS50b2tlbqCCCDwwggJDMIIByaADAgECAggtxfyI0sVLlTAKBggqhkjOPQQDAzBnMRswGQYDVQQDDBJBcHBsZSBSb290IENBIC0gRzMxJjAkBgNVBAsMHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRMwEQYDVQQKDApBcHBsZSBJbmMuMQswCQYDVQQGEwJVUzAeFw0xNDA0MzAxODE5MDZaFw0zOTA0MzAxODE5MDZaMGcxGzAZBgNVBAMMEkFwcGxlIFJvb3QgQ0EgLSBHMzEmMCQGA1UECwwdQXBwbGUgQ2Vy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</data>
+																																																																																																																										
+	<key>Entitlements</key>
+	<dict>
+				<key>com.apple.developer.sensorkit.reader.allow</key>
+    <array> 
+        <string>on-wrist</string>
+        <string>ambient-light-sensor</string>
+        <string>motion-accelerometer</string>
+        <string>motion-rotation-rate</string>
+        <string>visits</string>
+        <string>pedometer</string>
+        <string>device-usage</string>
+        <string>messages-usage</string>
+        <string>phone-usage</string>
+        <string>keyboard-metrics</string> 
+</array>
+				
+				<key>com.apple.developer.push-to-talk</key>
+		<true/>
+				
+				<key>com.apple.developer.journal.allow</key>
+		<array>
+				<string>suggestions</string>
+		</array>
+				
+				<key>com.apple.developer.submerged-shallow-depth-and-pressure</key>
+		<true/>
+				
+				<key>com.apple.developer.accessibility.merchant-api-control</key>
+		<true/>
+				
+				<key>com.apple.developer.matter.allow-setup-payload</key>
+		<true/>
+				
+				<key>com.apple.developer.networking.wifi-info</key>
+		<true/>
+				
+				<key>com.apple.developer.messages.critical-messaging</key>
+		<true/>
+				
+				<key>com.apple.developer.calling-app</key>
+		<true/>
+				
+				<key>com.apple.developer.associated-domains</key>
+		<string>*</string>
+				
+				<key>com.apple.developer.authentication-services.autofill-credential-provider</key>
+		<true/>
+				
+				<key>com.apple.developer.messaging-app</key>
+		<true/>
+				
+				<key>com.apple.developer.sustained-execution</key>
+		<true/>
+				
+				<key>com.apple.developer.ClassKit-environment</key>
+		<array>
+				<string>production</string>
+				<string>development</string>
+		</array>
+				
+				<key>com.apple.developer.default-data-protection</key>
+		<string>NSFileProtectionComplete</string>
+				
+				<key>com.apple.developer.healthkit</key>
+		<true/>
+				
+				<key>com.apple.developer.healthkit.access</key>
+		<array>
+				<string>health-records</string>
+		</array>
+				
+				<key>com.apple.developer.homekit</key>
+		<true/>
+				
+				<key>com.apple.developer.networking.HotspotConfiguration</key>
+		<true/>
+				
+				<key>com.apple.developer.proximity-reader.identity.display</key>
+		<true/>
+				
+				<key>com.apple.developer.managed-app-distribution.install-ui</key>
+		<array>
+				<string>managed-app</string>
+		</array>
+				
+				<key>com.apple.developer.usernotifications.communication</key>
+		<true/>
+				
+				<key>com.apple.developer.usernotifications.time-sensitive</key>
+		<true/>
+				
+				<key>inter-app-audio</key>
+		<true/>
+				
+				<key>com.apple.developer.networking.multipath</key>
+		<true/>
+				
+				<key>com.apple.developer.networking.networkextension</key>
+		<array>
+				<string>app-proxy-provider</string>
+				<string>content-filter-provider</string>
+				<string>packet-tunnel-provider</string>
+				<string>dns-proxy</string>
+				<string>dns-settings</string>
+				<string>relay</string>
+		</array>
+				
+				<key>com.apple.developer.nfc.readersession.formats</key>
+		<array>
+				<string>NDEF</string>
+				<string>TAG</string>
+				<string>PACE</string>
+		</array>
+				
+				<key>com.apple.developer.coretelephony.sim-inserted</key>
+		<true/>
+				
+				<key>com.apple.developer.sensitivecontentanalysis.client</key>
+		<array>
+				<string>analysis</string>
+		</array>
+				
+				<key>com.apple.developer.siri</key>
+		<true/>
+				
+				<key>com.apple.developer.networking.vpn.api</key>
+		<array>
+				<string>allow-vpn</string>
+		</array>
+				
+				<key>com.apple.external-accessory.wireless-configuration</key>
+		<true/>
+				
+				<key>com.apple.developer.pass-type-identifiers</key>
+		<array>
+				<string>BP9F2YY4PR.*</string>
+		</array>
+				
+				<key>com.apple.developer.group-session</key>
+		<true/>
+				
+				<key>com.apple.developer.coremedia.hls.interstitial-preview</key>
+		<true/>
+				
+				<key>com.apple.developer.networking.manage-thread-network-credentials</key>
+		<true/>
+				
+				<key>com.apple.developer.spatial-audio.profile-access</key>
+		<true/>
+				
+				<key>com.apple.developer.coremedia.hls.low-latency</key>
+		<true/>
+				
+				<key>com.apple.developer.shared-with-you</key>
+		<true/>
+				
+				<key>com.apple.developer.devicecheck.appattest-environment</key>
+		<array>
+				<string>development</string>
+				<string>production</string>
+		</array>
+				
+				<key>com.apple.developer.kernel.extended-virtual-addressing</key>
+		<true/>
+				
+				<key>com.apple.developer.associated-domains.mdm-managed</key>
+		<true/>
+				
+				<key>com.apple.developer.shared-with-you.collaboration</key>
+		<true/>
+				
+				<key>com.apple.developer.networking.slicing.appcategory</key>
+		<array>
+				<string>communication-9000</string>
+				<string>games-6014</string>
+				<string>streaming-9001</string>
+		</array>
+				
+				<key>com.apple.developer.on-demand-install-capable</key>
+		<true/>
+				
+				<key>com.apple.developer.networking.slicing.trafficcategory</key>
+		<array>
+				<string>defaultslice-1</string>
+				<string>video-2</string>
+				<string>background-3</string>
+				<string>voice-4</string>
+				<string>callsignaling-5</string>
+				<string>responsivedata-6</string>
+				<string>avstreaming-7</string>
+				<string>responsiveav-8</string>
+		</array>
+				
+				<key>com.apple.developer.family-controls</key>
+		<true/>
+				
+				<key>com.apple.developer.healthkit.recalibrate-estimates</key>
+		<true/>
+				
+				<key>com.apple.developer.media-device-discovery-extension</key>
+		<true/>
+				
+				<key>application-identifier</key>
+		<string>BP9F2YY4PR.com.MassaM.GlucoWatch</string>
+				
+				<key>com.apple.developer.coremotion.head-pose</key>
+		<true/>
+				
+				<key>keychain-access-groups</key>
+		<array>
+				<string>BP9F2YY4PR.*</string>
+				<string>com.apple.token</string>
+		</array>
+				
+				<key>com.apple.developer.weatherkit</key>
+		<true/>
+				
+				<key>get-task-allow</key>
+		<true/>
+				
+				<key>com.apple.developer.team-identifier</key>
+		<string>BP9F2YY4PR</string>
+				
+				<key>com.apple.developer.kernel.increased-debugging-memory-limit</key>
+		<true/>
+				
+				<key>com.apple.developer.game-center</key>
+		<true/>
+				
+				<key>com.apple.developer.kernel.increased-memory-limit</key>
+		<true/>
+				
+				<key>com.apple.developer.healthkit.background-delivery</key>
+		<true/>
+				
+				<key>com.apple.developer.fileprovider.testing-mode</key>
+		<true/>
+				
+				<key>com.apple.developer.user-fonts</key>
+		<array>
+				<string>app-usage</string>
+				<string>system-installation</string>
+		</array>
+				
+				<key>com.apple.developer.applesignin</key>
+		<array>
+				<string>Default</string>
+		</array>
+
+	</dict>
+	<key>ExpirationDate</key>
+	<date>2025-12-16T23:24:23Z</date>
+	<key>Name</key>
+	<string>Glucko</string>
+	<key>ProvisionedDevices</key>
+	<array>
+		<string>00008301-209EE8A41EA0A02E</string>
+		<string>00008301-4081F8861E00A02E</string>
+		<string>d8fe3c42de05e85b36f9e8d3df96b955f12fab0b</string>
+		<string>00008110-000039EE0230401E</string>
+		<string>00008030-000505093A81802E</string>
+	</array>
+	<key>TeamIdentifier</key>
+	<array>
+		<string>BP9F2YY4PR</string>
+	</array>
+	<key>TeamName</key>
+	<string>Yevhen Masalitin</string>
+	<key>TimeToLive</key>
+	<integer>365</integer>
+	<key>UUID</key>
+	<string>27ebfeb9-331a-4284-a49b-5f7fd4c8840d</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

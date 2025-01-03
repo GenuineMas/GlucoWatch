@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C88CF552D27753B0074F613 /* SensorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C88CF542D27753A0074F613 /* SensorKit.framework */; };
+		8C8B08562D1CCC5700C5109B /* Frameworks in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B08552D1CCC5700C5109B /* Frameworks */; };
 		8CAE93F22CD16484004F6904 /* GlucoseDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE93F12CD16484004F6904 /* GlucoseDataView.swift */; };
 		8CAE93F32CD16484004F6904 /* GlucoseDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE93F12CD16484004F6904 /* GlucoseDataView.swift */; };
 		8CAE93F42CD16484004F6904 /* GlucoseDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE93F12CD16484004F6904 /* GlucoseDataView.swift */; };
+		8CD27C022D1B591D0039139A /* InjectSK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD27C012D1B591D0039139A /* InjectSK.swift */; };
+		8CD2B35B2D25FD4F00FC4C2D /* SensorKitPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2B35A2D25FD4F00FC4C2D /* SensorKitPrivate.m */; };
 		8CF144F72CD1534900005242 /* GlucoWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF144F62CD1534900005242 /* GlucoWatchApp.swift */; };
 		8CF144F92CD1534900005242 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF144F82CD1534900005242 /* ContentView.swift */; };
 		8CF144FB2CD1534C00005242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF144FA2CD1534C00005242 /* Assets.xcassets */; };
@@ -53,10 +57,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8C40456B2D1F4F5300736849 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8C40454A2D1F498F00736849 /* frida-gadget.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "frida-gadget.dylib"; path = "GlucoWatch/Frameworks/frida-gadget.dylib"; sourceTree = "<group>"; };
+		8C4045522D1F4F3300736849 /* Gadget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gadget.swift; sourceTree = "<group>"; };
+		8C4045602D1F4F5300736849 /* Gadget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gadget.h; sourceTree = "<group>"; };
+		8C4045612D1F4F5300736849 /* Gadget.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Gadget.docc; sourceTree = "<group>"; };
+		8C88CF532D275D2B0074F613 /* SensorKitAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorKitAPI.h; sourceTree = "<group>"; };
+		8C88CF542D27753A0074F613 /* SensorKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensorKit.framework; path = System/Library/Frameworks/SensorKit.framework; sourceTree = SDKROOT; };
+		8C8B08552D1CCC5700C5109B /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
 		8CAE93F02CD162F0004F6904 /* GlucoWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GlucoWatch.entitlements; sourceTree = "<group>"; };
 		8CAE93F12CD16484004F6904 /* GlucoseDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseDataView.swift; sourceTree = "<group>"; };
 		8CAE93F52CD180D8004F6904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8CD27C012D1B591D0039139A /* InjectSK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectSK.swift; sourceTree = "<group>"; };
+		8CD2B3592D25FD4F00FC4C2D /* GlucoWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GlucoWatch-Bridging-Header.h"; sourceTree = "<group>"; };
+		8CD2B35A2D25FD4F00FC4C2D /* SensorKitPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensorKitPrivate.m; sourceTree = "<group>"; };
 		8CF144F32CD1534900005242 /* GlucoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlucoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF144F62CD1534900005242 /* GlucoWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoWatchApp.swift; sourceTree = "<group>"; };
 		8CF144F82CD1534900005242 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C88CF552D27753B0074F613 /* SensorKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,13 +129,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C4045492D1F498F00736849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C88CF542D27753A0074F613 /* SensorKit.framework */,
+				8C40454A2D1F498F00736849 /* frida-gadget.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C4045512D1F4F3300736849 /* Gadget */ = {
+			isa = PBXGroup;
+			children = (
+				8C4045522D1F4F3300736849 /* Gadget.swift */,
+			);
+			path = Gadget;
+			sourceTree = "<group>";
+		};
+		8C40455F2D1F4F5300736849 /* Gadget */ = {
+			isa = PBXGroup;
+			children = (
+				8C4045602D1F4F5300736849 /* Gadget.h */,
+				8C4045612D1F4F5300736849 /* Gadget.docc */,
+			);
+			path = Gadget;
+			sourceTree = "<group>";
+		};
 		8CF144EA2CD1534900005242 = {
 			isa = PBXGroup;
 			children = (
 				8CF144F52CD1534900005242 /* GlucoWatch */,
 				8CF1450B2CD1534D00005242 /* GlucoWatchTests */,
 				8CF145152CD1534D00005242 /* GlucoWatchUITests */,
+				8C4045512D1F4F3300736849 /* Gadget */,
+				8C40455F2D1F4F5300736849 /* Gadget */,
 				8CF144F42CD1534900005242 /* Products */,
+				8C4045492D1F498F00736849 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +181,7 @@
 		8CF144F52CD1534900005242 /* GlucoWatch */ = {
 			isa = PBXGroup;
 			children = (
+				8C8B08552D1CCC5700C5109B /* Frameworks */,
 				8CAE93F52CD180D8004F6904 /* Info.plist */,
 				8CAE93F02CD162F0004F6904 /* GlucoWatch.entitlements */,
 				8CF1452F2CD1544300005242 /* WebView.swift */,
@@ -138,6 +196,10 @@
 				8CF144FF2CD1534C00005242 /* Persistence.swift */,
 				8CF145012CD1534C00005242 /* GlucoWatch.xcdatamodeld */,
 				8CF144FC2CD1534C00005242 /* Preview Content */,
+				8CD27C012D1B591D0039139A /* InjectSK.swift */,
+				8CD2B35A2D25FD4F00FC4C2D /* SensorKitPrivate.m */,
+				8CD2B3592D25FD4F00FC4C2D /* GlucoWatch-Bridging-Header.h */,
+				8C88CF532D275D2B0074F613 /* SensorKitAPI.h */,
 			);
 			path = GlucoWatch;
 			sourceTree = "<group>";
@@ -177,6 +239,7 @@
 				8CF144EF2CD1534900005242 /* Sources */,
 				8CF144F02CD1534900005242 /* Frameworks */,
 				8CF144F12CD1534900005242 /* Resources */,
+				8C40456B2D1F4F5300736849 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,11 +293,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					8CF144F22CD1534900005242 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1540;
 					};
 					8CF145072CD1534D00005242 = {
 						CreatedOnToolsVersion = 15.2;
@@ -271,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8B08562D1CCC5700C5109B /* Frameworks in Resources */,
 				8CF144FE2CD1534C00005242 /* Preview Assets.xcassets in Resources */,
 				8CF144FB2CD1534C00005242 /* Assets.xcassets in Resources */,
 			);
@@ -297,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD27C022D1B591D0039139A /* InjectSK.swift in Sources */,
 				8CF145032CD1534C00005242 /* GlucoWatch.xcdatamodeld in Sources */,
 				8CF145352CD1544300005242 /* WebView.swift in Sources */,
 				8CF145382CD1544300005242 /* WatchSensor.swift in Sources */,
@@ -306,6 +372,7 @@
 				8CF144F72CD1534900005242 /* GlucoWatchApp.swift in Sources */,
 				8CF1453B2CD1544300005242 /* BarCodeView.swift in Sources */,
 				8CF1452B2CD1543500005242 /* HealthDataFetcher.swift in Sources */,
+				8CD2B35B2D25FD4F00FC4C2D /* SensorKitPrivate.m in Sources */,
 				8CF145322CD1544300005242 /* BreadUnitsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +475,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -465,6 +536,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -479,28 +554,53 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GlucoWatch/GlucoWatch.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GlucoWatch/Preview Content\"";
-				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BP9F2YY4PR;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GlucoWatch/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "For scaning bar code of food products";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "In order to build neuro miodel for correlation glucose healthkit data requested ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "In order to build neuro miodel for correlation glucose healthkit data requested ";
+				INFOPLIST_KEY_NSSensorKitPrivacyPolicyURL = "http://www.kraft-paket.com.ua";
+				INFOPLIST_KEY_NSSensorKitUsageDescription = "In order to build neuro miodel for correlation glucose healthkit data requested ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/GlucoWatch/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.GlucoWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Glucko;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GlucoWatch/GlucoWatch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -511,28 +611,52 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GlucoWatch/GlucoWatch.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GlucoWatch/Preview Content\"";
-				DEVELOPMENT_TEAM = BP9F2YY4PR;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BP9F2YY4PR;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GlucoWatch/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "For scaning bar code of food products";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "In order to build neuro miodel for correlation glucose healthkit data requested ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "In order to build neuro miodel for correlation glucose healthkit data requested ";
+				INFOPLIST_KEY_NSSensorKitPrivacyPolicyURL = "http://www.kraft-paket.com.ua";
+				INFOPLIST_KEY_NSSensorKitUsageDescription = "In order to build neuro miodel for correlation glucose healthkit data requested ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/GlucoWatch/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MassaM.GlucoWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Glucko;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GlucoWatch/GlucoWatch-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
